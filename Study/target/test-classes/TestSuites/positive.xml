@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PositiveTestSuite" verbose="1">
+	<test name="postive test cases">
+		<classes>
+			<class name="Practice.Study.PositiveTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NegativeTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Negative test cases- Chrome invalid password(failed)">
+    <parameter name="password" value="incorrectPassword"/>
+    <parameter name="expectedmessage" value="Your username is invalid!"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="tomsmith"/>
+    <classes>
+      <class name="Practice.Study.NegativeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="negativeTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Practice.Study.NegativeTest -->
+    </classes>
+  </test> <!-- Negative test cases- Chrome invalid password(failed) -->
+  <test thread-count="5" name="Negative test cases- Firefox invalid password(failed)">
+    <parameter name="password" value="incorrectPassword"/>
+    <parameter name="expectedmessage" value="Your username is invalid!"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="tomsmith"/>
+    <classes>
+      <class name="Practice.Study.NegativeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="negativeTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Practice.Study.NegativeTest -->
+    </classes>
+  </test> <!-- Negative test cases- Firefox invalid password(failed) -->
+</suite> <!-- Failed suite [NegativeTestSuite] -->
