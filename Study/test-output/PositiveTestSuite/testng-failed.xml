@@ -6,6 +6,8 @@
       <class name="Practice.Study.PositiveTest">
         <methods>
           <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- Practice.Study.PositiveTest -->
     </classes>
